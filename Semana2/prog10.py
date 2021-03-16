@@ -27,6 +27,6 @@ for dirpath, dirnames, filenames in os.walk(os.getcwd()):
 
 print(os.environ.get('HOME'))
 
-file_path = os.environ.get('HOME') = 'text.txt'
-print(file_path)
+#file_path = os.environ.get('HOME') = 'text.txt'
+#print(file_path)
 #print(os.listdir())
