@@ -56,6 +56,8 @@ with open('test.txt', 'r') as rf:
 	f.write('R')
 	'''
 	with open('testcopy.txt', 'w') as wf:
+		for line in rf:
+			wf.write(line)
 
 
 
