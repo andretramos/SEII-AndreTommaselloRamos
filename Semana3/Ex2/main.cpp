@@ -26,7 +26,6 @@ int main(){
 
   while(!feof(f_in)){
     byteslidos = fread(buffer,1,tamanho_buffer,f_in);
-    //fwrite(buff,100,1,stdout);
     printf("%d\n",byteslidos);
     if(byteslidos <=0)break;
     fwrite(buffer,byteslidos,1,f_out);
